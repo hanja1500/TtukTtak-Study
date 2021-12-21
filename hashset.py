@@ -1,7 +1,3 @@
-# file read - check hash - file check in directory
-# file_location = /Users/johnlee/Desktop/asd
-# hash_file_name = /Users/johnlee/PycharmProjects/work/hashset.txt
-
 import hashlib
 import os
 
