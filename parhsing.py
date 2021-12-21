@@ -1,5 +1,3 @@
-# https://image-comic.pstatic.net/webtoon/738809/101/20211108112406_aede85fdf2ec130507efe7eb82d7dbbd_IMAG01_32.jpg
-
 from bs4 import BeautifulSoup
 import requests, re, os
 import urllib.request
