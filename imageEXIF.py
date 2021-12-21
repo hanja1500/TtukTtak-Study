@@ -1,5 +1,3 @@
-# /Users/johnlee/Downloads/20211221_125748.jpg
-
 from PIL import Image
 from PIL.ExifTags import TAGS
 import webbrowser
