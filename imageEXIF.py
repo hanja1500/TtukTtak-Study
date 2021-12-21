@@ -52,4 +52,6 @@ longitude = str(longitude_degree + (longitude_minute + longitude_second / 60.0) 
 if exif_GPS[3] == 'W':
     longitude *= -1
 
-webbrowser.open("https://www.google.com/maps/place/" + latitude + "+" + longitude)
+printing = "https://www.google.com/maps/place/" + latitude + "+" + longitude
+print(printing)
+webbrowser.open(printing)
