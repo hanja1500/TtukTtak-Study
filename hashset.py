@@ -1,6 +1,6 @@
 # file read - check hash - file check in directory
 # file_location = /Users/johnlee/Desktop/asd
-# hash_file_name = hashset.txt
+# hash_file_name = /Users/johnlee/PycharmProjects/work/hashset.txt
 
 import hashlib
 import os
@@ -46,7 +46,7 @@ for repeat in range(len(filelist)):
         file_reader = Filetake.read(4096)
     encoding = hashlib.md5()
     encoding.update(file_reader)
-    encoding_text = encoding.hexdigest()
+    encoding_text = encoding.hexdigest().upper()
 
     checking = compare(encoding_text, cnt)
     if checking:
